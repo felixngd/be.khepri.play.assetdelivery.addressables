@@ -47,5 +47,10 @@ namespace Khepri.PlayAssetDelivery.Editor.Settings.GroupSchemas
 
             so.ApplyModifiedProperties();
         }
+        
+        public void SetDeliveryMode(AssetPackDeliveryMode deliveryMode)
+        {
+            m_DeliveryMode = deliveryMode;
+        }
     }
 }
